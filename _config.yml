@@ -9,6 +9,7 @@ version: 2
 name: 진영인
 title: 문제의 본질을 바라보자.
 email: zero0515@gmail.com
+phone: 010-9194-0785
 # website: https://github.com/sabsiru
 
 # Dark Mode (true/false/never)
@@ -80,33 +81,27 @@ content:
       - layout: left
         title: Backend
         description: | # this will include new lines to allow paragraphs
-          - <mark>Java</mark>
+          - Java
           - Spring MVC, Spring Boot, JPA, JUnit
-          - IntelliJ, DataGrip, WebStorm
           - MySQL, OracleDB, Redis
+
+      - layout: left
+        title: Frontend
+        description: | # this will include new lines to allow paragraphs
+          - JavaScript, jQuery, Ajax
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: 엠진인터랙티브
-        # link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: 웹 개발자
-        caption: 2024.02 ~ 2024.12
-        quote: >
-          경찰청 사회적약자 파트 유지보수 파견 근무
-        description: | # this will include new lines to allow paragraphs
-          - 실종아동, 치매 노인 등 사회적약자의 실종 및 실종 사전 방지 지문등록 시스템 유지 보수 관리 업무
-
-      - layout: left
         title: 루트시스템즈
         sub_title: 웹 개발자
-        caption: 2023.05 ~ 2024.01
+        caption: 2023.05 ~ 2024.12
         quote: >
-          국민연금공단 고도화 파견 근무
+          중소 SI 기업
         description: | # this will include new lines to allow paragraphs
-          - 설명
+          - 사내 교육용 레거시 프로젝트
+          - 전자정부 프레임워크, iBatis, Oracle, JSP, jQuery, Ajax, JavaScript 레거시 환경에서의 개발 경험
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -117,7 +112,7 @@ content:
         link: https://github.com/sabsiru/eCommerce-service
         # sub_title: BSc Computer Science
         quote: >
-          물경력 탈출을 바라는 주니어 백엔드 개발자를 위한 과정
+          대용량 트래픽 경험이 필요한 주니어 백엔드 개발자를 위한 과정
         description: | # this will include new lines to allow paragraphs
           - TDD 
           - 아키텍처
