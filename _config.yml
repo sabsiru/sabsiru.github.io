@@ -192,8 +192,10 @@ content:
       - 축구, 야구 보기
       - 사진 찍기
 
-      <img src="/images/3.jpg" alt="Trees" width="250"/>
-      <img src="/images/4.JPG" alt="Trees" width="250"/>
+      <div style="display: flex; justify-content: center; gap: 10px;">
+        <img src="/images/3.jpg" alt="Trees" width="250"/>
+        <img src="/images/4.JPG" alt="Trees" width="250"/>
+      </div>
 
 # Footer
 # footer_show_references: true
