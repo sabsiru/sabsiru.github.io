@@ -190,15 +190,13 @@ content:
       - 노래
       - 생산성, 편의성 프로그램 찾기
       - 축구, 야구 보기
-      - 사진 촬영
+      - 사진 찍기
 
-      <img src="/images/3.jpg" alt="Trees" width="300"/>
-      <img src="/images/4.JPG" alt="Trees" width="300"/>
-      <img src="/images/5.JPG" alt="Trees" width="300"/>
-
+      <img src="/images/3.jpg" alt="Trees" width="250"/>
+      <img src="/images/4.JPG" alt="Trees" width="250"/>
 
 # Footer
-footer_show_references: true
+# footer_show_references: true
 # references_title: References on request (Override references text)
 
 # Build settings
