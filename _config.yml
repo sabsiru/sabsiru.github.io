@@ -192,11 +192,11 @@ content:
       - 축구, 야구 보기
       - 사진 촬영
 
-      ![1](/images/1.JPG "Trees")
-      ![2](/images/2.JPG "Trees")
-      ![3](/images/3.jpg "Trees")
-      ![4](/images/4.JPG "Trees")
-      ![5](/images/5.JPG "Trees")
+      <div style="display: flex; gap: 10px;">
+        <img src="/images/3.jpg" alt="Trees" width="200"/>
+        <img src="/images/4.JPG" alt="Trees" width="200"/>
+        <img src="/images/5.JPG" alt="Trees" width="200"/>
+      </div>
 
 
 # Footer
