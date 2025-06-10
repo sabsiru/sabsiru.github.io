@@ -49,9 +49,9 @@ about_title: About Me
 about_profile_image: images/me.JPG
 about_content: | # this will include new lines to allow paragraphs
   안녕하세요. 1년 6개월차 백엔드 개발자 진영인입니다.  
-  대화를 즐기고, 상대방의 이야기에 경청할 줄 아는 사람입니다.
+  <mark>대화</mark>를 즐기고, 상대방의 이야기에 <mark>경청</mark>할 줄 아는 사람입니다.
   무언가를 만들어낸다는 점에 매력을 느껴 개발을 시작했습니다.
-  읽기 쉬운 코드가 좋은 코드라 생각하며, 테스트 코드의 중요성도 잘 알고 있습니다.
+  <mark>읽기 쉬운 코드</mark>가 좋은 코드라 생각하며, <mark>테스트 코드</mark>의 중요성도 잘 알고 있습니다.
 
 content:
   #  - title: Projects # Title for the section
@@ -111,9 +111,10 @@ content:
         caption: 2023.05 ~ 2024.12
         quote: >
           중소 SI 기업
-        description: | # this will include new lines to allow paragraphs
-          - 사내 교육용 레거시 프로젝트
-          - 전자정부 프레임워크, iBatis, Oracle, JSP, jQuery, Ajax, JavaScript 레거시 환경에서의 개발 경험
+        description: |
+          - 전자정부 프레임워크 기반의 레거시 시스템 유지보수 및 기능 개선 업무 수행
+          - 외부인력용 ID 생성 시 매년 하드코딩으로 변경하던 연도 접두어(sYY)를 서버 시간 기반으로 자동 반영되도록 개선
+          - 통계 수치가 사용자 예상과 달라 로그와 입력 흐름을 확인해 증상 원인을 파악하고, 복잡한 테이블 구조로 인해 근본 원인은 해결하지 못했지만 통계 결과는 정확히 출력되도록 수정함
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
