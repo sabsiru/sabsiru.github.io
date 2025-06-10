@@ -192,9 +192,9 @@ content:
       - 축구, 야구 보기
       - 사진 촬영
 
-      <img src="/images/3.jpg" alt="Trees" width="200"/>
-      <img src="/images/4.JPG" alt="Trees" width="200"/>
-      <img src="/images/5.JPG" alt="Trees" width="200"/>
+      <img src="/images/3.jpg" alt="Trees" width="300"/>
+      <img src="/images/4.JPG" alt="Trees" width="300"/>
+      <img src="/images/5.JPG" alt="Trees" width="300"/>
 
 
 # Footer
