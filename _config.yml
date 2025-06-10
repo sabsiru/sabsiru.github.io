@@ -175,6 +175,13 @@ content:
           9사단 헌병 운전병 병장 만기전역
         description: 호송, 감호, 경호 등 운전업무 수행
 
+      - layout: left
+        title: 태흥시네마
+        caption: 2013.03 ~ 2014.03
+        quote: >
+          의정부 개인 영화상영관
+        description: 매점, 매표, 영화관 정리 및 업무 스케쥴 관리
+
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
@@ -182,14 +189,14 @@ content:
       - 루빅스 큐브
       - 노래
       - 생산성, 편의성 프로그램 찾기
-      - 사진 촬영
       - 축구, 야구 보기
+      - 사진 촬영
 
-      ![1](/images/1.jpg "Trees")
-      ![2](/images/2.jpg "Trees")
+      ![1](/images/1.JPG "Trees")
+      ![2](/images/2.JPG "Trees")
       ![3](/images/3.jpg "Trees")
-      ![4](/images/4.jpg "Trees")
-      ![5](/images/5.jpg "Trees")
+      ![4](/images/4.JPG "Trees")
+      ![5](/images/5.JPG "Trees")
 
 
 # Footer
