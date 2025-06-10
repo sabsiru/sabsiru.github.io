@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: 진영인
-title: 문제의 본질을 바라보자.
+title: 백엔드 개발자
 email: zero0515@gmail.com
 phone: 010-9194-0785
 # website: https://github.com/sabsiru
@@ -48,8 +48,10 @@ linkedin_username: 영인-진-68212a362
 about_title: About Me
 about_profile_image: images/me.JPG
 about_content: | # this will include new lines to allow paragraphs
-  간략한 자기 소개
-  <mark>자바</mark> and <mark>스프링</mark>
+  안녕하세요. 1년 6개월차 백엔드 개발자 진영인입니다.  
+  대화를 즐기고, 상대방의 이야기에 경청할 줄 아는 사람입니다.
+  무언가를 만들어낸다는 점에 매력을 느껴 개발을 시작했습니다.
+  읽기 쉬운 코드가 좋은 코드라 생각하며, 테스트 코드의 중요성도 잘 알고 있습니다.
 
 content:
   #  - title: Projects # Title for the section
@@ -76,19 +78,29 @@ content:
     content:
       - layout: top-middle
         quote: >
-          업무에 사용 했던 기술과 개인적으로 공부한 기술들입니다.
+          업무에 사용 했던 기술들과 개인적으로 공부하고 있는 기술들입니다.
 
       - layout: left
         title: Backend
         description: | # this will include new lines to allow paragraphs
           - Java
-          - Spring MVC, Spring Boot, JPA, JUnit
-          - MySQL, OracleDB, Redis
+          - Spring MVC, Spring Boot
+          - JPA
+          - Junit5, Mockito
+          - IntelliJ, DataGrip
+          - Git
+
+      - layout: left
+        title: Devops
+        description: | # this will include new lines to allow paragraphs
+          - MySQL, Oracle
+          - Redis
 
       - layout: left
         title: Frontend
         description: | # this will include new lines to allow paragraphs
-          - JavaScript, jQuery, Ajax
+          - JavaScript
+          - jQuery, Ajax
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
