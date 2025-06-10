@@ -48,10 +48,10 @@ linkedin_username: 영인-진-68212a362
 about_title: About Me
 about_profile_image: images/me.JPG
 about_content: | # this will include new lines to allow paragraphs
-  안녕하세요. 1년 6개월차 백엔드 개발자 진영인입니다.  
-  <mark>대화</mark>를 즐기고, 상대방의 이야기에 <mark>경청</mark>할 줄 아는 사람입니다.
-  무언가를 만들어낸다는 점에 매력을 느껴 개발을 시작했습니다.
-  <mark>읽기 쉬운 코드</mark>가 좋은 코드라 생각하며, <mark>테스트 코드</mark>의 중요성도 잘 알고 있습니다.
+  - 안녕하세요. 1년 6개월차 백엔드 개발자 진영인입니다.  
+  - <mark>대화</mark>를 즐기고, 상대방의 이야기에 <mark>경청</mark>하려고 노력합니다.
+  - 무언가를 만들어낸다는 점에 매력을 느껴 개발을 시작했습니다.
+  - <mark>읽기 쉬운 코드</mark>가 좋은 코드라 생각하며, <mark>테스트 코드</mark>의 중요성도 잘 알고 있습니다.
 
 content:
   #  - title: Projects # Title for the section
