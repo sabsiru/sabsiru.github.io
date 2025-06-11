@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: 진영인
-title: 백엔드 개발자1
+title: 백엔드 개발자
 email: zero0515@gmail.com
 phone: 010-9194-0785
 # website: https://github.com/sabsiru
@@ -140,12 +140,17 @@ content:
       - layout: left
         title: 미래IT캠퍼스 융합소프트웨어 개발자 양성
         caption: 2022.11 ~ 2023.04
-        link: -추가예정
+        link: https://github.com/sabsiru/virtualland-indv
         # sub_title: BSc Computer Science
         quote: >
           기본적인 CRUD 위주의 레거시 프로젝트
         description: | # this will include new lines to allow paragraphs
-          - Java, Spring, MVC, Oracle, JSP, jQuery, Ajax, JavaScript
+          - Java 기초 문법 학습 후, HTML, CSS, JavaScript로 웹 페이지의 구조와 동작 원리 학습
+          - Spring 레거시 구조(Servlet 기반)를 활용해 JSP로 게시판 기능을 직접 구현
+          - 이후 jQuery, Ajax를 학습하며 웹의 동적인 요소와 비동기 통신 방식에 대한 이해를 확장
+          - 학습한 내용을 바탕으로 Oracle과 MyBatis를 활용한 팀 프로젝트를 통해 CRUD 기반 웹 애플리케이션을 구현
+          - 실습은 Windows 환경 기준이었으나, 개인적으로 macOS에서 Docker로 Oracle 환경을 구성하며 발생한 이슈를 직접 해결
+          - 전체적으로 레거시 웹 개발의 흐름을 따라가며 프론트부터 백엔드, DB 연동까지의 기초를 실습함
 
   - title: Others
     layout: list
