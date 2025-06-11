@@ -149,7 +149,7 @@ content:
           - Spring 레거시 구조(Servlet 기반)를 활용해 JSP로 게시판 기능을 직접 구현
           - 이후 jQuery, Ajax를 학습하며 웹의 동적인 요소와 비동기 통신 방식에 대한 이해를 확장
           - 학습한 내용을 바탕으로 Oracle과 MyBatis를 활용한 팀 프로젝트를 통해 CRUD 기반 웹 애플리케이션을 구현
-          - 실습은 Windows 환경 기준이었으나, 개인적으로 macOS에서 Docker로 Oracle 환경을 구성하며 발생한 이슈를 직접 해결
+          - Windows 환경 기준의 실습과 달리 macOS에서 Docker로 Oracle을 구성하며 Apple Silicon 이슈를 겪었고, 관련 문제를 스스로 해결하며 학습을 지속함
           - 전체적으로 레거시 웹 개발의 흐름을 따라가며 프론트부터 백엔드, DB 연동까지의 기초를 실습함
 
   - title: Others
@@ -160,35 +160,40 @@ content:
         caption: 2020.03 ~ 2022.10
         quote: >
           네이버 스마트스토어 운영
-        description: 동대문시장에서 직접 상품을 떼다 촬영하고 편집 후 업로드
+        description: |
+          - 동대문시장에서 직접 상품을 떼다 촬영하고 편집 후 업로드
 
       - layout: left
         title: 제이에이치스타일
         caption: 2018.12 ~ 2020.01
         quote: >
           남성 의류 쇼핑몰 촬영 업무
-        description: 상품위주의 촬영과 주1회 모델 촬영 및 상품 포장
+        description: |
+          - 상품위주의 촬영과 주1회 모델 촬영 및 상품 포장
 
       - layout: left
         title: 비전사진학원
         caption: 2018.03 ~ 2018.12
         quote: >
           사진학원 조교
-        description: 데스크 업무와 수업에 조교로 참여
+        description: |
+          - 데스크 업무와 수업에 조교로 참여
 
       - layout: left
         title: 병역
         caption: 2014.10 ~ 2016.07
         quote: >
           9사단 헌병 운전병 병장 만기전역
-        description: 호송, 감호, 경호 등 운전업무 수행
+        description: |
+          - 호송, 감호, 경호 등 운전업무 수행
 
       - layout: left
         title: 태흥시네마
         caption: 2013.03 ~ 2014.03
         quote: >
           의정부 개인 영화상영관
-        description: 매점, 매표, 영화관 정리 및 업무 스케쥴 관리
+        description: |
+          - 매점, 매표, 영화관 정리 및 업무 스케쥴 관리
 
   - title: A Little More About Me
     layout: text
