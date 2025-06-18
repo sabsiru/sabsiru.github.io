@@ -10,7 +10,7 @@ name: 진영인
 title: 백엔드 개발자
 email: zero0515@gmail.com
 phone: 010-9194-0785
-# website: https://github.com/sabsiru
+website: https://velog.io/@zero013/posts
 
 # Dark Mode (true/false/never)
 darkmode: never
@@ -48,11 +48,10 @@ linkedin_username: 영인-진-68212a362
 about_title: About Me
 about_profile_image: images/5.JPG
 about_content: | # this will include new lines to allow paragraphs
-  - 안녕하세요. 1년 6개월차 백엔드 개발자 진영인입니다.  
-  - <mark>대화</mark>를 즐기고, 상대방의 이야기에 <mark>경청</mark>하려고 노력합니다.
-  - 무언가를 만들어낸다는 점에 매력을 느껴 개발을 시작했습니다.
-  - <mark>읽기 쉬운 코드</mark>가 좋은 코드라 생각하며, <mark>테스트 코드</mark>의 중요성도 잘 알고 있습니다.
-  - 기술에 <mark>매몰</mark>되지 않고 문제의 <mark>본질</mark>을 파악하는 것이 결국 내 것이 되는 길이라고 생각합니다.
+  - Java와 Spring을 기반으로 안정적이고 유지보수 가능한 백엔드 시스템을 구축해온 개발자입니다.
+  - 운영 환경 간의 차이로 인해 발생한 실서비스 장애를 신속히 분석하고, Flashback Query를 활용하여 짧은 시간 내 정상화한 경험이 있습니다.
+  - 데이터의 신뢰성과 성능 최적화에 관심이 많아, 복잡한 문제 상황에서도 원인을 논리적으로 분석하고 개선 방향을 도출해 본 경험이 있습니다.
+  - 제한된 시스템 환경이나 인계되지 않은 상황에서도 필요한 기술을 스스로 익히며 문제를 해결해 나가며 기능 안정성과 코드 신뢰성을 확보하기 위해 테스트 코드 기반의 개발을 지향합니다.
 
 content:
   #  - title: Projects # Title for the section
@@ -86,36 +85,38 @@ content:
         description: | # this will include new lines to allow paragraphs
           - Java
           - Spring MVC, Spring Boot
-          - JPA
+          - JPA, MyBatis
           - Junit5, Mockito
-          - IntelliJ, DataGrip
-          - Git
+          - IntelliJ, DataGrip, Git
 
       - layout: left
         title: Devops
         description: | # this will include new lines to allow paragraphs
           - MySQL, Oracle
-          - Redis
+          - Redis, Docker
 
       - layout: left
         title: Frontend
         description: | # this will include new lines to allow paragraphs
           - JavaScript
-          - jQuery, Ajax
+          - HTML, CSS
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         title: 루트시스템즈
-        sub_title: 웹 개발자
+        sub_title: 웹 개발자 | 경찰청 사회적약자 시스템 유지보수팀 파견
         caption: 2023.05 ~ 2024.12
         quote: >
-          SI 회사
+          전자정부프레임워크1, Java 1.7, JSP, Oracle, iBatis, JavaScript, jQuery, Ajax, HTML, CSS
         description: |
-          - 전자정부 프레임워크 기반의 레거시 시스템 유지보수 및 기능 개선 업무 수행
-          - 외부인력용 ID 생성 시 매년 하드코딩으로 변경하던 연도 접두어(sYY)를 서버 시간 기반으로 자동 반영되도록 개선
-          - 사용자의 예상 대비 약 10% 누락된 통계 수치를 확인하고, 로그와 입력 흐름을 검토해 원인을 파악한 뒤 필요한 데이터를 보정하여 100% 일치하도록 수정
+          - 반복적으로 발생하던 사전등록 아동 보호자 조회 오류를 분석해, 특정 조건에서만 발생하는 로직 문제를 확인하고 원인 코드를 추적함. 해당 문제는 웹에서는 검증이 존재하지만 모바일에서는 검증이 누락되어 발생한 것으로, 외부 인력이 담당하는 모바일 개발팀에 이슈를 인계하여 수정 가능하도록 조치함.
+          - 실종자 상세보기에서 다수의 조회 오류가 발생하여, 생년월일과 주민등록번호 입력값 중 ‘13월’, ‘32일’ 등 비정상 데이터가 존재함을 확인함. 정규 표현식 기반 쿼리로 비정상 데이터를 식별하고, 기준이 명확한 항목에 대해 일괄 정정 처리함. 해당 문제 역시 모바일 입력 검증 누락으로 인해 발생한 것임.
+          - 게시판 항목 및 순서 수정 작업 중 운영 DB와 개발 DB 간 코드 미동기화로 인해 유니크 제약 위반 발생. Flashback Query로 1시간 전 상태를 복원하고 데이터 정합성을 맞춰 메인 페이지 정상화 조치함.
+          - 내부 담당자의 요청으로 월간 통계 수치에서 약 9.7% 누락 현상을 확인. 외부 사용자의 입력 데이터는 존재했으나, 집계 로직의 조건과 맞지 않아 통계에서 제외된 것으로 분석됨. 폐쇄망(경찰청 내부망) 환경에서 직접적인 재현은 어려웠지만, 로그와 데이터 이력을 분석해 누락 항목을 보정하여 통계 정확도를 100%로 복구.
+          - 경찰청 내부 요청으로 100만 건 이상 규모의 테이블에서 다수 테이블 조인, 복잡한 조건 분기, 공통 코드 매핑 등을 포함한 SQL 쿼리를 구성하여 통계 데이터를 정기적으로 추출 및 전달함.
+          - 매년 수동으로 수정하던 외부 인력용 ID 생성 로직을 LocalDate 기반 자동화로 개선함.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -126,24 +127,23 @@ content:
         link: https://github.com/sabsiru/eCommerce-service
         # sub_title: BSc Computer Science
         quote: >
-          대용량 트래픽 경험이 필요한 주니어 백엔드 개발자를 위한 과정
+          Java 17, Spring Boot 3, JPA, MySQL, Redis, Docker, k6, Grafana
         description: | # this will include new lines to allow paragraphs
-          - 단위 테스트와 통합 테스트를 통해 테스트 주도 개발(TDD) 방식의 개발 흐름을 익힘
-          - ERD, 시퀀스 다이어그램, 클래스 다이어그램 등 다양한 설계 문서를 작성하고 이를 기반으로 실제 프로젝트 구현
-          - 기능 개발과 함께 단위 테스트, 통합 테스트, E2E 테스트를 작성하며 전체 시스템 흐름을 검증
-          - 동시성 이슈를 재현하고, 비관적 락과 낙관적 락을 적용해 안정적으로 문제를 해결
-          - 이후 Redis 기반의 Redisson 분산 락으로 구조를 리팩토링하여 분산 환경에서도 동시성 이슈를 방어
-          - 복잡한 조회 로직으로 인해 부하가 발생하기 쉬운 API에 Redis 캐시를 적용하여 응답 속도 개선 및 부하 분산
-          - 트래픽이 집중되는 기능에도 Redis를 적용해 구조를 개선하고 안정성을 확보
-          - 트랜잭션 일관성이 중요한 핵심 서비스 흐름을 이벤트 기반 구조로 리팩토링하여 처리 순서와 응답 분리를 구현
-
+          - 테스트 주도 개발(TDD)을 기반으로 작은 단위 서비스 구현 경험을 통해 테스트 코드 작성 및 리팩토링 흐름 이해
+          - ERD, 시퀀스/클래스 다이어그램 등을 작성하며 설계 중심 개발 경험 축적
+          - 주문, 결제, 쿠폰 발급, 포인트 충전/사용 기능을 포함한 E-Commerce 서비스 개발
+          - Clean Architecture, DDD, Facade 패턴 등을 적용하여 계층 간 책임을 분리한 구조 설계
+          - 조회 성능 병목 구간을 찾아 k6 기반 부하 테스트를 수행하고, Redis Cache 및 Sorted Set으로 성능 개선
+          - 포인트/재고/쿠폰 등 주요 리소스에 대해 비관적 락/낙관적 락/Redis 기반 분산락을 적용하고, 동시성 테스트(Red-Green) 후 보고서 작성
+          - Redis를 활용한 선착순 쿠폰 발급 시스템 및 인기상품 캐싱 기능 구현
+          - 외부 주문 연동을 위한 이벤트 기반 아키텍처 구현 경험 (Spring 이벤트 사용)
       - layout: left
-        title: 미래IT캠퍼스 융합소프트웨어 개발자 양성
+        title: 미래IT캠퍼스 융합소프트웨어 개발자 양성 과정
         caption: 2022.11 ~ 2023.04
         link: https://github.com/sabsiru/virtualland-indv
         # sub_title: BSc Computer Science
         quote: >
-          기본적인 CRUD 위주의 레거시 프로젝트
+          Java 1.8, Spring MVC, JavaScript, Oracle, MyBatis, jQuery, Ajax, HTML, CSS
         description: | # this will include new lines to allow paragraphs
           - Java 기초 문법 학습 후, HTML, CSS, JavaScript로 웹 페이지의 구조와 동작 원리 학습
           - Spring 레거시 구조(Servlet 기반)를 활용해 JSP로 게시판 기능을 직접 구현
@@ -151,6 +151,23 @@ content:
           - 학습한 내용을 바탕으로 Oracle과 MyBatis를 활용한 팀 프로젝트를 통해 CRUD 기반 웹 애플리케이션을 구현
           - Windows 환경 기준의 실습과 달리 macOS에서 Docker로 Oracle을 구성하며 Apple Silicon 이슈를 겪었고, 관련 문제를 스스로 해결하며 학습을 지속함
           - 전체적으로 레거시 웹 개발의 흐름을 따라가며 프론트부터 백엔드, DB 연동까지의 기초를 실습함
+
+  - title: Toy Project
+    layout: list
+    content:
+        - layout: left
+          title: 콘소메 커뮤니티 프로젝트 (가칭) | 커뮤니티 서비스 구현 중 (진행 중)
+          caption: 2025.6 ~ 현재
+          link: GitHubGitHub - sabsiru/consome-back/posts
+          quote: >
+            Java 17, Spring Boot 3, JPA, MySQL, Docker, k6, Grafana, (Redis)
+          description: |
+            - 클린 아키텍처 + 레이어드 아키텍처 기반으로 커뮤니티 웹 서비스 구조 설계
+            - 사용자, 게시판, 댓글, 좋아요, 포인트 도메인을 도출하고 DDD 패턴에 따라 구현
+            - 포인트 히스토리를 통한 행위 기반 포인트 적립 구조 설계 및 개발
+            - 대댓글, 논리 삭제(Y/N 플래그), 자기 참조 댓글 구조 등 계층형 데이터 처리 구조 설계
+            - 테스트 주도 개발(TDD)을 통해 핵심 도메인에 대한 단위 테스트 작성 및 안정성 확보
+            - 각 도메인에 대해 독립적으로 개발하고 Facade 패턴 적용
 
   - title: Others
     layout: list
