@@ -10,7 +10,7 @@ name: 진영인
 title: 백엔드 개발자
 email: zero0515@gmail.com
 phone: 010-9194-0785
-website: https://velog.io/@zero013/posts
+# website: https://velog.io/@zero013/posts
 
 # Dark Mode (true/false/never)
 darkmode: never
@@ -30,6 +30,10 @@ linkedin_username: 영인-진-68212a362
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
+additional_links: # Optional, remove if not needed
+  - title: velog
+    icon: fab fa-velog
+    url: https://velog.io/@zero013/posts
 # additional_links:
 # - title: itsgoingto.be
 #   icon: fas fa-globe
@@ -37,7 +41,6 @@ linkedin_username: 영인-진-68212a362
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
-
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
 # gtm: "GTM-0000000"
@@ -152,7 +155,7 @@ content:
           - Windows 환경 기준의 실습과 달리 macOS에서 Docker로 Oracle을 구성하며 Apple Silicon 이슈를 겪었고, 관련 문제를 스스로 해결하며 학습을 지속함
           - 전체적으로 레거시 웹 개발의 흐름을 따라가며 프론트부터 백엔드, DB 연동까지의 기초를 실습함
 
-  - title: Toy Project
+  - title: Side Project
     layout: list
     content:
         - layout: left
