@@ -23,7 +23,6 @@ github_username: sabsiru
 # flickr_username: jekyll
 instagram_username: j__y__i
 linkedin_username: 영인-진-68212a362
-velog_username: zero0515
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: globalmtb
@@ -33,7 +32,7 @@ velog_username: zero0515
 # Additional icon links
 additional_links: # Optional, remove if not needed
   - title: velog
-    icon: fab fa-blog
+    icon: fas fa-blog
     url: https://velog.io/@zero013/posts
 # additional_links:
 # - title: itsgoingto.be
